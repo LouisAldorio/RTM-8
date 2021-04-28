@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         btn_submit.setOnClickListener(this)
         btn_find.setOnClickListener(this)
         btn_reset.setOnClickListener(this)
