@@ -42,6 +42,7 @@ class AudioPlayerService : Service(),
                 ACTION_PLAY -> {
                     if (!myMediaPlayer!!.isPlaying) {
 
+                        //use to load local resource audio
 //                        val assetFileDescriptor = this.resources.openRawResourceFd(R.raw.love)
 //                        myMediaPlayer?.run {
 //                            reset()

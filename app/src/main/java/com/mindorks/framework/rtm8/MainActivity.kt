@@ -33,19 +33,19 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btn_reset.setOnClickListener(this)
         btn_play.setOnClickListener(this)
 
-        val url = "http://128.199.174.165:8081/audio/Inuyasha-FutariNoKimochi-822964372.mp3" // your URL here
-//        var url = "https://pl.meln.top/mr/34e004c10445a2885c94207768ab99a8.mp3?session_key=865b495cfefce32ca15c89faf730e7ef"
-        MediaPlayer().apply {
-            setAudioAttributes(
-                AudioAttributes.Builder()
-                    .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
-                    .setUsage(AudioAttributes.USAGE_MEDIA)
-                    .build()
-            )
-            setDataSource(url)
-            prepare() // might take long! (for buffering, etc)
-            start()
-        }
+//        val url = "http://128.199.174.165:8081/audio/Inuyasha-FutariNoKimochi-822964372.mp3" // your URL here
+////        var url = "https://pl.meln.top/mr/34e004c10445a2885c94207768ab99a8.mp3?session_key=865b495cfefce32ca15c89faf730e7ef"
+//        MediaPlayer().apply {
+//            setAudioAttributes(
+//                AudioAttributes.Builder()
+//                    .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
+//                    .setUsage(AudioAttributes.USAGE_MEDIA)
+//                    .build()
+//            )
+//            setDataSource(url)
+//            prepare() // might take long! (for buffering, etc)
+//            start()
+//        }
     }
 
     override fun onClick(p0: View?) {
